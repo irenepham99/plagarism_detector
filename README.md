@@ -1,4 +1,4 @@
-# Team 14 - Plagarism Detector - Tim
+# Team 14 - Plagarism Detector 
 
 This application performs plagarism detection on 2 uploaded sets of JavaScript or Typescript code. The plagarism detection algorithm is based on the concept of Levenshtein distance (aka edit distance) and the usage of abstract syntax trees (ASTs). The ts-morph library which can be found here https://ts-morph.com/ was used to parse code into ASTs. Once files are uploaded, the percentage of code plagarized and all plagarized blocks of code will be displayed. Plagarism instances can be explored by clicking on the text highlighted as plagarized in red.
 
