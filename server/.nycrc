@@ -1,0 +1,16 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "reporter": ["html", "text"],
+  "checkCoverage": true,
+  "branches": 90,
+  "lines": 80,
+  "functions": 80,
+  "statements": 80,
+  "perFile": true,
+  "reportDir": "./reports/mocha",
+  "tempDir": "./reports/.nyc_output"
+}
